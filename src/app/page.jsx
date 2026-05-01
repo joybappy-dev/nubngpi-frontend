@@ -153,7 +153,7 @@ export default async function Home() {
               />
               <p>{result.studentName}</p>
               <p>Roll - {result.roll}</p>
-              <p>GPA - {`${result.latestGPA === "ref" && "REFFERED"}`}</p>
+              <p>GPA - {`${result.latestGPA === "ref"? "REFFERED" : result.latestGPA}`}</p>
               <p>Status - {result.status}</p>
 
               {/* display subject name by code */}
