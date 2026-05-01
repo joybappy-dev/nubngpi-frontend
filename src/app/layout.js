@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
         <Navbar />
 
         {/* 📱 Page Wrapper */}
-        <main className="md:px-0 px-2">{children}</main>
+        <main className="md:px-0 px-2 py-10 border">{children}</main>
       </body>
     </html>
   );
